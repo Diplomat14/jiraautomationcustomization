@@ -18,7 +18,7 @@ setup(
     install_requires=[],
     #dependency_links=['http://server/user/repo/tarball/master#egg=package-1.0'],
     entry_points = {
-        'console_scripts':['ja-customization-main=jacustomization.console.command_line:main']
+        'console_scripts':['jacustomization-main=jacustomization.console.command_line:main']
     },
     include_package_data=True,
     test_suite='nose.collector',
