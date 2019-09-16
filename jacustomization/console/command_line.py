@@ -1,6 +1,6 @@
 import jiraautomation.operations
-import arcjiraautomation.operations.issues_comparison
-import jiraautomation.console.command_line
+import jiraautomation.console.count_issues
+import jacustomization.operations.issues_comparison
 
 def main():
     jiraautomation.operations.register.register(jacustomization.operations.count_issues.count_issues)
