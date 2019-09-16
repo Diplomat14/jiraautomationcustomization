@@ -1,4 +1,5 @@
 from setuptools import setup
+import os
 
 def readme():
     with open(os.path.dirname(os.path.abspath(__file__)) + '/README.rst') as f:
@@ -17,7 +18,7 @@ setup(
     install_requires=[],
     #dependency_links=['http://server/user/repo/tarball/master#egg=package-1.0'],
     entry_points = {
-        'console_scripts':['<todo_package_name>-main=<todo_package_name>.console.command_line:main']
+        'console_scripts':['ja-customization-main=todo_package_name.console.command_line:main']
     },
     include_package_data=True,
     test_suite='nose.collector',
