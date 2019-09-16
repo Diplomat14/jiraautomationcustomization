@@ -25,7 +25,7 @@ class count_issues(basic_operation):
         pass
 
     def __init__(self, iLogger):
-        super(issues_comparison,self).__init__(iLogger)
+        super(count_issues,self).__init__(iLogger)
 
     def execute(self, container, args):
         l = self.logger
