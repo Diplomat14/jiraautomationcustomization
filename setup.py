@@ -15,7 +15,9 @@ setup(
     author_email='<todo_author_email>',
     license='MIT', #TBD
     packages=['jacustomization'],
-    install_requires=[],
+    install_requires=[
+        'jiraautomation @ git+ssh://git@github.com/Diplomat14/jiraautomation.git'
+    ],
     #dependency_links=['http://server/user/repo/tarball/master#egg=package-1.0'],
     entry_points = {
         'console_scripts':['jacustomization-main=jacustomization.console.command_line:main']
