@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 import os
 
 def readme():
@@ -14,7 +14,7 @@ setup(
     author='<todo_author_first_last_name>',
     author_email='<todo_author_email>',
     license='MIT', #TBD
-    packages=['jacustomization'],
+    packages=find_packages(),
     install_requires=[
         'jiraautomation @ git+http://git@github.com/Diplomat14/jiraautomation.git'
     ],
