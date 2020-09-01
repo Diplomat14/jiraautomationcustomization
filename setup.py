@@ -16,7 +16,7 @@ setup(
     license='MIT', #TBD
     packages=['jacustomization'],
     install_requires=[
-        'jiraautomation @ git+ssh://git@github.com/Diplomat14/jiraautomation.git'
+        'jiraautomation @ git+http://git@github.com/Diplomat14/jiraautomation.git'
     ],
     #dependency_links=['http://server/user/repo/tarball/master#egg=package-1.0'],
     entry_points = {
